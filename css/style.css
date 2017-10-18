@@ -1,0 +1,182 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, form, label, article, footer, header, time, mark{
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-size: 100%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #404040;
+	background: #f9f9f9;
+	min-width: 450px;
+}
+
+header{
+	background:url(header-bg.jpg) center center no-repeat; 
+	color: #ffffff; 
+	text-align: center;
+	background-size: cover;
+	padding: 100px 20px 40px 20px; 
+}
+
+.link_VK{
+	background: rgba(0,0,0,.65);
+	display: table;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-radius: 4px;
+}
+
+.link_VK input[type="button"]{
+	background: #40AECF;
+	border: 0;
+	color: white;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	padding: 10px 25px;
+	margin-left:10px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.link_VK input[type="button"]:hover{
+	background: #0E9CC7;
+}
+
+.vk{
+	background: #f9f9f9;
+	color: #404040;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	display: inline;
+	padding: 10px 35px;
+	border-radius: 3px;
+}
+
+header>h1{
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 25px;
+}
+
+header>h3{
+	font-size: 18px;
+	margin-bottom: 50px;
+	font-style:italic;
+}
+
+article{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 30px 20px;
+	text-align: justify;
+}
+
+article>h2{
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+article>p{
+	margin-bottom: 20px;
+}
+
+
+
+.p1{
+	margin-bottom: 30px;
+}
+
+.img1{
+	float: left;
+	padding-right: 30px;
+}
+
+#p1text{
+	padding-top:14px;
+}
+
+.p2{
+	margin-bottom: 50px;
+}
+
+.img2{
+	float: right;
+	padding-left: 30px;
+}
+
+#p2text{
+	padding-top:20px;
+}
+
+.img3{
+	float: left;
+	padding-right: 30px;
+}
+
+.email{
+	margin: 0px auto 0px auto;
+	text-align: center;
+	background: rgba(0,0,0,.8);
+	max-width: 900px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	padding: 10px 35px;
+	font-style: italic;
+	border-radius: 3px;
+}
+
+#em1{
+	color: #40AECF;
+}
+
+@media screen and (max-width: 650px){	
+	.link_VK{
+		margin: 0px auto;
+		border-radius: 4px;
+		max-width:380px;
+		padding-top: 25px;
+	}
+	
+	.link_VK input[type="button"]{
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	
+	.img1{
+		width: 150px;
+	}
+	
+	.img2{
+		width: 150px;
+	}
+	
+	.img3{
+		width: 150px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
